@@ -1,0 +1,17 @@
+{
+"manifest_version":2,
+"name":"لنز",
+"version":"1.0",
+"description": "افزونه ای برای جستجو سریع در لنز",
+"icons":{
+	"48":"icons/favicon.png"
+}
+,
+"background" : {
+	"scripts":[
+		"scripts/background.js"
+	]
+},
+"permissions":["contextMenus"]
+
+}
