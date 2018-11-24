@@ -1,6 +1,6 @@
 //-----creating search menu
 chrome.contextMenus.create({
-  title: "چستچو %s در لنز", 
+  title: "جستجو %s در لنز", 
   contexts:["selection"], 
   onclick: search
 });
